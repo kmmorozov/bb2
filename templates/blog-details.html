@@ -3,6 +3,9 @@
 {% block title %}
 {{ post.title }} - Blog Details
 {% endblock %}
+{% block poster_title %}
+  <h1><a href="{% url 'index' %}" style="color:white">GREAT POSTS</a></h1>
+{% endblock %}
 {% block content %}
   <!--================ Start Blog Post Area =================-->
   <section class="blog-post-area section-margin">
